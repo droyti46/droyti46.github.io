@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Seymour+One&display=swap');
+
+body {
+	background-color: #1d1d1d;
+}
+
+.container {
+	max-width: 390px;
+}
+
+#img-container {
+	background: url('https://cdn.akamai.steamstatic.com/steam/apps/1278870/ss_e190aad904fde4ffc22df9249be2cf84005cb839.1920x1080.jpg') no-repeat;
+	width:  390px;
+	height: 200px;
+	background-attachment: fixed;
+}
+
+#content-container {
+	height: 2000px;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.heading {
+	width: 390px;
+	display: inline-block;
+	text-align: center;
+	font-size: 30px;
+	color: #ff5500;
+	font-weight: bolder;
+}
+
+.description {
+	color: #fff;
+	text-align: center;
+}
+
+p {
+	font-family: 'Comfortaa';
+}
