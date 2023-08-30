@@ -17,6 +17,21 @@
     margin-right: 100px;
 }
 
+#main-info a {
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    background-color: transparent;
+    transition: transform 0.5s, background-color 0.5s, color 0.5s;
+}
+
+#main-info a:hover {
+    transform: scale(1.2);
+    background-color: #fff;
+    color: #161E35;
+}
+
 
 .name {
     text-align: center;
@@ -94,7 +109,7 @@
     margin-left: 60px;
 }
 
-#services-grid div {
+#services-grid a {
     cursor: pointer;
     width: 60vw;
     height: auto;
@@ -104,14 +119,15 @@
     place-items: center;
     border-radius: 30px;
     margin-bottom: 100px;
+    text-decoration: none;
     transition: transform 0.5s;
 }
 
-#services-grid div:hover {
+#services-grid a:hover {
     transform: scale(1.1);
 }
 
-#services-grid div p {
+#services-grid a p {
     color: white;
     font-size: 25px;
     text-align: center;
