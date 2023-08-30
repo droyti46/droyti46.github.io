@@ -1,0 +1,12 @@
+#contact H1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+a {
+    color: white;
+    text-align: center;
+    display:block;
+    font-size: 20px;
+}
