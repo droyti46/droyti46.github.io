@@ -1,5 +1,5 @@
 #main-info {
-    background: #444444 url(../img/azazel.jpg) no-repeat center;
+    background: #444444 url(../img/azazel.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: multiply;
@@ -19,7 +19,7 @@
 
 .name {
     text-align: center;
-    font-size: 140px;
+    font-size: 9vw;
     margin-top: 1px;
     margin-bottom: 1px;
 }
@@ -68,7 +68,6 @@
 
 
 #our-services {
-    height: 1000px;
     background: #171717;
 }
 
@@ -96,11 +95,13 @@
 
 #services-grid div {
     cursor: pointer;
-    width: 600px;
-    height: 600px;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
     display: grid;
     place-items: center;
     border-radius: 30px;
+    margin-bottom: 100px;
     transition: transform 0.5s;
 }
 
@@ -132,10 +133,11 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    object-fit: cover;
+    height: auto;
+    width: 100%;
+    max-width: 720px;
     transition: all 0.5s;
 }
-
 #reviews img:hover {
     display: block;
     margin-left: auto;
