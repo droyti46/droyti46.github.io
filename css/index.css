@@ -34,7 +34,7 @@
     background-size: cover;
     height: auto;
     min-height: 600px;
-    width: 20vw;
+    width: 30vw;
     margin: 50px;
     border-radius: 30px;
     float: left;
@@ -42,7 +42,7 @@
 
 #about-artem {
     color: white;
-    font-size: 25px;
+    font-size: 19px;
     margin: 50px;
 }
 
