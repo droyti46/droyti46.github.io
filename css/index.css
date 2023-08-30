@@ -26,24 +26,24 @@
 }
 
 #info-about-azazel {
-    height: 800px;
     overflow: hidden;
 }
 
 #artem-img {
-    background: url(../img/artem.jpg) no-repeat;
+    background: url(../img/artem.jpg) no-repeat center center;
     background-size: cover;
-    height: 600px;
-    margin: 100px;
+    height: auto;
+    min-height: 600px;
+    width: 20vw;
+    margin: 50px;
     border-radius: 30px;
     float: left;
-    width: 20%;
 }
 
 #about-artem {
     color: white;
     font-size: 25px;
-    margin: 100px;
+    margin: 50px;
 }
 
 
@@ -89,20 +89,22 @@
     display: grid;
     margin-top: 100px;
     grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+
+    margin-right: 60px;
+    margin-left: 60px;
 }
 
 #services-grid div {
     cursor: pointer;
     width: 60vw;
-    height: 650px;
+    height: auto;
+    min-height: 650px;
     max-width: 650px;
     display: grid;
     place-items: center;
     border-radius: 30px;
     margin-bottom: 100px;
     transition: transform 0.5s;
-    margin-right: 100px;
-    margin-left: 100px;
 }
 
 #services-grid div:hover {
