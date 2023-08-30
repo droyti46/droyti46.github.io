@@ -1,5 +1,5 @@
 #main-info {
-    background: #444444 url(../img/azazel.jpg) no-repeat;
+    background: #444444 url(../img/azazel.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: multiply;
@@ -132,6 +132,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    object-fit: cover;
     transition: all 0.5s;
 }
 

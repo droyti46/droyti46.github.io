@@ -14,6 +14,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    object-fit: cover;
     transition: all 0.5s;
 }
 
@@ -30,7 +31,7 @@
 }
 
 #image {
-    background-image: url(../img/azazel_reviews.jpg);
+    background: url(../img/azazel_reviews.jpg) center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
