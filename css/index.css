@@ -33,8 +33,8 @@
     background: url(../img/artem.jpg) no-repeat center center;
     background-size: cover;
     height: auto;
-    min-height: 600px;
-    width: 30vw;
+    min-height: 500px;
+    width: 20vw;
     margin: 50px;
     border-radius: 30px;
     float: left;
@@ -42,7 +42,7 @@
 
 #about-artem {
     color: white;
-    font-size: 19px;
+    font-size: 20px;
     margin: 50px;
 }
 
